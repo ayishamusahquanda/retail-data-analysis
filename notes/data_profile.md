@@ -86,6 +86,28 @@ format: P###
 
 
 
+Product
+
+Non-blanks: 1214
+
+Blanks: 0
+
+Unique products: 20
+
+Notes: ProductID and ProductName are 1-1
+
+
+
+Column: Category
+
+Non-blanks: 1214
+
+Blanks: 0
+
+Unique categories: 8—furniture, accessories, audio, display, computers, networking, storage, power
+
+
+
 
 
 
