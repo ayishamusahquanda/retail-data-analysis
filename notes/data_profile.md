@@ -108,6 +108,38 @@ Unique categories: 8—furniture, accessories, audio, display, computers, networ
 
 
 
+Quantity
+
+Non-blanks: 1204
+
+Blanks: 10
+
+Notes: 6 rows have -1 as a quantity, likely returns. Investigate during cleaning
+
+
+
+UnitPrice\_GHS
+
+Non-blanks: 1206
+
+Blanks: 8
+
+Notes: Some unit prices for the same products do not match, which may be due to inflation
+
+
+
+SalesPerson
+
+Non-blanks: 1214
+
+Blanks: 0
+
+Unique count: 14
+
+Unique count after normalization: 8
+
+Weird things: 12 names have spaces before the name
+
 
 
 
