@@ -16,13 +16,13 @@ Decisions
 
 6\. OrderDate — converted 5 text dates to real dates, standardized to YYYY-MM-DD.
 
-7\. Quantity blanks (10 rows)\*\* — removed (incomplete orders).
+7\. Quantity blanks (10 rows) — removed (incomplete orders).
 
-8\. Quantity = -1 (6 rows)\*\* — kept as returns.
+8\. Quantity = -1 (6 rows) — kept as returns.
 
-9\. UnitPrice blanks (8 rows)\*\* — removed (incomplete).
+9\. UnitPrice blanks (8 rows) — removed (incomplete).
 
-10\. UnitPrice variation per product\*\* — kept as is (business decision: prices reflect time-based changes).
+10\. UnitPrice variation per product — kept as is (business decision: prices reflect time-based changes).
 
 
 
@@ -41,4 +41,26 @@ Final row count
 \- Removed: \~18 (blanks in Quantity/UnitPrice)
 
 \- Final: \~1196
+
+
+
+
+
+Import summary
+
+\- customers.csv - customers table: 180 rows
+
+\- products.csv - products table: 20 rows
+
+\- orders.csv - orders table: 1200 rows
+
+\- Note: orders.csv has 1200 rows (not 1214 like raw\_sales.csv; they are separate files)
+
+\- No FK violations occurred
+
+
+
+
+
+
 
