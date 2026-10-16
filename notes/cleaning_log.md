@@ -8,7 +8,13 @@ Decisions
 
 2\. Region — applied PROPER(TRIM). 14 → 7 unique.
 
-3\. Product — applied PROPER(TRIM). 20 unique(no change).
+3\. Product — applied PROPER(TRIM). 20 unique(no change) 
+
+&#x09;24-inch Monitor to 24-Inch Monitor
+
+&#x09;27-inch Monitor to 27-Inch Monitor
+
+
 
 4\. Category — applied PROPER(TRIM). 8 unique(converted to Title Case).
 
@@ -38,9 +44,9 @@ Final row count
 
 \- Started: 1214
 
-\- Removed: \~18 (blanks in Quantity/UnitPrice)
+\- Removed: 18 (blanks in Quantity/UnitPrice)
 
-\- Final: \~1196
+\- Final: 1196
 
 
 
@@ -57,10 +63,4 @@ Import summary
 \- Note: orders.csv has 1200 rows (not 1214 like raw\_sales.csv; they are separate files)
 
 \- No FK violations occurred
-
-
-
-
-
-
 
